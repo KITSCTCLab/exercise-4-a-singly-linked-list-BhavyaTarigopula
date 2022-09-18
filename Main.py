@@ -40,8 +40,7 @@ if curr is None:
 return 0
 num = ""
 while curr is not None:
-num = str(curr.data) + num
-curr = curr.next
+  curr = curr.next
 return int(num)
 first_list = LinkedList()
 second_list = LinkedList()
